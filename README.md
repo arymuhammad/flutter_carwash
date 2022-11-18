@@ -1,6 +1,6 @@
 # flutter_carwash
 
-A new Flutter project.
+A Flutter project for handle queue carwash system.
 
 ## Getting Started
 
