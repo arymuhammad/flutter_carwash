@@ -1,0 +1,71 @@
+name: carwash
+version: 1.0.0+1
+publish_to: none
+description: Mobile Car Wash Online.
+environment: 
+  sdk: '>=2.19.0-171.0.dev <3.0.0'
+
+dependencies: 
+  auth: 8.1.0
+  barcode_widget: ^2.0.3
+  cloud_firestore: 3.5.1
+  cupertino_icons: ^1.0.2
+  data_table_2: ^2.3.7
+  easy_sidemenu: ^0.4.0
+  firebase: 9.0.3
+  firebase_auth: ^3.11.2
+  firebase_core: ^1.24.0
+  flutter_tts: ^3.5.3
+  fluttertoast: ^8.0.9
+  get: 4.6.5
+  http: ^0.13.5
+  intl: ^0.17.0
+  lottie: 1.4.3
+  path_provider: ^2.0.11
+  bluetooth_print: ^3.0.1
+  multiselect_formfield: ^0.1.7
+  datetime_picker_formfield: ^2.0.1
+  crypto: 3.0.2
+  printing: ^5.9.3
+  pdf: ^3.8.4
+  assets_audio_player: ^3.0.5
+  ota_update: 4.0.2
+  flutter_speed_dial: 6.2.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.10.0
+  flutter_test: 
+    sdk: flutter
+
+flutter_icons: 
+  android: launcher_icon
+  image_path: assets/logo.png
+  web: 
+    image_path: assets/logo.png
+    background_color: '#hexcode'
+    theme_color: '#hexcode'
+    generate: true
+  ios: true
+  min_sdk_android: 21
+
+flutter: 
+  fonts: 
+    - family: Nunito
+      fonts: 
+        - asset: assets/font/nunito/Nunito-Black.ttf
+        - asset: assets/font/nunito/Nunito-BlackItalic.ttf
+        - asset: assets/font/nunito/Nunito-Bold.ttf
+        - asset: assets/font/nunito/Nunito-BoldItalic.ttf
+        - asset: assets/font/nunito/Nunito-ExtraBold.ttf
+        - asset: assets/font/nunito/Nunito-ExtraBoldItalic.ttf
+        - asset: assets/font/nunito/Nunito-ExtraLight.ttf
+        - asset: assets/font/nunito/Nunito-ExtraLightItalic.ttf
+        - asset: assets/font/nunito/Nunito-Light.ttf
+        - asset: assets/font/nunito/Nunito-Regular.ttf
+  assets: 
+    - assets/
+  uses-material-design: true
+
